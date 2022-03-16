@@ -22,7 +22,8 @@ const ContactsCard = ({users, fetchUser}) => {
       {/* <TouchableOpacity onPress={FetchUser} style={{justifyContent:'center',alignItems:'center'}}>
         <Text style={{fontSize:17,fontWeight:'bold',color:'#fff'}}>Buttton</Text>
       </TouchableOpacity> */}
-      {users.users.map((item, ind) => {
+      {
+        users.users.map((item, ind) => {
         return (
           <TouchableOpacity
             onPress={() =>
